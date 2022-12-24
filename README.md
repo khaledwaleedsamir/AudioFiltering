@@ -6,6 +6,7 @@ Audio Spectral Analysis and Filtering using MATLAB
 2-Design a filter using ‘filter Designer’ in MATLAB to create a low pass filter passing only the music’s frequency and removing the unwanted noise.
 
 3-Filter Specifications:
+
 Response Type	:Low Pass Filter
 
 Design Method	: Butterworth
