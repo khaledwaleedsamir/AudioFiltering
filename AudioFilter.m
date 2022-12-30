@@ -27,12 +27,6 @@ figure();
 freqz(Hd) %to plot the frequency response of the filter
 impz(Hd)  %to plot the impulse response of the filter
 
-%reading the filtered audio after saving it to speed it up
-[s,fs] = audioread("filtered.wav");
-S = stretchAudio(s,2); %speeding up the audio
-sound(S,fs) %to listen to the sped up audio
-FFTS = fft(S,N);
-plot(F,abs(fftshift(FFTS))/N); title('twice speed filtered audio spectrum'); xlabel('Frequency'); ylabel('Magnitude');
  
 
 
